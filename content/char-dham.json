@@ -1,0 +1,275 @@
+{
+  "packages": [
+    {
+      "image": "/images/char-dham/kedarnath.jpg",
+      "badge": "Most Popular",
+      "badgeTone": "primary",
+      "title": "Complete Char Dham Yatra",
+      "subtitle": "Kedarnath · Badrinath · Gangotri · Yamunotri",
+      "price": "₹18,999",
+      "meta": [
+        "12 Nights / 13 Days",
+        "10–30 Pilgrims",
+        "Haridwar / Rishikesh"
+      ],
+      "features": [
+        "All 4 Dhams covered in one journey",
+        "Comfortable hotel & dharamshala stays",
+        "AC vehicle transportation throughout",
+        "Experienced local guides at each dham",
+        "All permits & entry arrangements",
+        "Daily breakfast & dinner included"
+      ],
+      "itinerary": [
+        {
+          "stage": "Day 1–2 — Haridwar → Yamunotri",
+          "detail": "Arrive Haridwar, drive to Janki Chatti, trek to Yamunotri temple, darshan & return."
+        },
+        {
+          "stage": "Day 3–4 — Yamunotri → Gangotri",
+          "detail": "Drive to Gangotri, Ganga Aarti, temple darshan, explore Bhairon Ghati."
+        },
+        {
+          "stage": "Day 5–7 — Gangotri → Kedarnath",
+          "detail": "Drive to Sonprayag, trek/pony to Kedarnath, Shiva darshan, overnight at base camp."
+        },
+        {
+          "stage": "Day 8–10 — Kedarnath → Badrinath",
+          "detail": "Descend, drive via Joshimath to Badrinath, Vishnu darshan, Mana village visit."
+        },
+        {
+          "stage": "Day 11–13 — Badrinath → Haridwar",
+          "detail": "Return journey via Devprayag, Rishikesh, Ganga Aarti, departure from Haridwar."
+        }
+      ]
+    },
+    {
+      "image": "/images/char-dham/badrinath.jpg",
+      "badge": "Best Value",
+      "badgeTone": "accent",
+      "title": "Do Dham Yatra",
+      "subtitle": "Kedarnath · Badrinath",
+      "price": "₹11,499",
+      "meta": [
+        "7 Nights / 8 Days",
+        "8–25 Pilgrims",
+        "Haridwar / Rishikesh"
+      ],
+      "features": [
+        "Kedarnath & Badrinath darshan",
+        "Comfortable hotel stays",
+        "AC vehicle transportation",
+        "Experienced guides",
+        "All permits included",
+        "Breakfast & dinner daily"
+      ],
+      "itinerary": [
+        {
+          "stage": "Day 1 — Haridwar → Guptkashi",
+          "detail": "Arrive Haridwar, drive to Guptkashi via Devprayag & Rudraprayag."
+        },
+        {
+          "stage": "Day 2–4 — Kedarnath Darshan",
+          "detail": "Drive to Sonprayag, trek/pony to Kedarnath, Shiva darshan, overnight, return."
+        },
+        {
+          "stage": "Day 5–7 — Badrinath Darshan",
+          "detail": "Drive to Badrinath via Joshimath, Vishnu darshan, Mana village, Vasudhara Falls."
+        },
+        {
+          "stage": "Day 8 — Return to Haridwar",
+          "detail": "Drive back via Rishikesh, Ganga Aarti, departure."
+        }
+      ]
+    },
+    {
+      "image": "/images/char-dham/kedarnath.jpg",
+      "badge": "Best Seller",
+      "badgeTone": "primary",
+      "title": "Kedarnath Yatra",
+      "subtitle": "Shiva's Sacred Abode",
+      "price": "₹8,999",
+      "meta": [
+        "5 Nights / 6 Days",
+        "6–20 Pilgrims",
+        "Haridwar / Rishikesh"
+      ],
+      "features": [
+        "Kedarnath temple darshan",
+        "Gaurikund & Sonprayag visit",
+        "Pony / palki option available",
+        "Comfortable stays",
+        "All permits included",
+        "Meals included"
+      ],
+      "itinerary": [
+        {
+          "stage": "Day 1 — Haridwar → Guptkashi",
+          "detail": "Arrive, drive to Guptkashi, check-in, evening aarti."
+        },
+        {
+          "stage": "Day 2 — Guptkashi → Sonprayag → Gaurikund",
+          "detail": "Drive to Sonprayag, shared jeep to Gaurikund, overnight."
+        },
+        {
+          "stage": "Day 3 — Trek to Kedarnath",
+          "detail": "16 km trek or pony ride to Kedarnath, evening darshan."
+        },
+        {
+          "stage": "Day 4 — Kedarnath Darshan & Descent",
+          "detail": "Early morning darshan, descend to Gaurikund, drive to Guptkashi."
+        },
+        {
+          "stage": "Day 5–6 — Return to Haridwar",
+          "detail": "Drive back via Devprayag, Rishikesh, departure."
+        }
+      ]
+    },
+    {
+      "image": "/images/char-dham/badrinath.jpg",
+      "badge": "Popular",
+      "badgeTone": "primary",
+      "title": "Badrinath Yatra",
+      "subtitle": "Vishnu's Sacred Dham",
+      "price": "₹7,499",
+      "meta": [
+        "4 Nights / 5 Days",
+        "6–20 Pilgrims",
+        "Haridwar / Rishikesh"
+      ],
+      "features": [
+        "Badrinath temple darshan",
+        "Mana village — last Indian village",
+        "Vasudhara Falls & Bheem Pul",
+        "Tapt Kund holy dip",
+        "Comfortable hotel stays",
+        "Meals included"
+      ],
+      "itinerary": [
+        {
+          "stage": "Day 1 — Haridwar → Joshimath",
+          "detail": "Drive via Devprayag, Rudraprayag, Chamoli to Joshimath."
+        },
+        {
+          "stage": "Day 2 — Joshimath → Badrinath",
+          "detail": "Drive to Badrinath, Tapt Kund dip, evening darshan & aarti."
+        },
+        {
+          "stage": "Day 3 — Badrinath Darshan & Mana",
+          "detail": "Morning darshan, visit Mana village, Vasudhara Falls, Bheem Pul."
+        },
+        {
+          "stage": "Day 4–5 — Return to Haridwar",
+          "detail": "Drive back via Rishikesh, Ganga Aarti, departure."
+        }
+      ]
+    },
+    {
+      "image": "/images/char-dham/gangotri.jpg",
+      "badge": "New",
+      "badgeTone": "accent",
+      "title": "Gangotri & Yamunotri Yatra",
+      "subtitle": "Sacred River Sources",
+      "price": "₹9,499",
+      "meta": [
+        "5 Nights / 6 Days",
+        "6–20 Pilgrims",
+        "Haridwar / Rishikesh"
+      ],
+      "features": [
+        "Gangotri & Yamunotri darshan",
+        "Ganga & Yamuna source visit",
+        "Surya Kund hot spring dip",
+        "Comfortable stays",
+        "All permits included",
+        "Meals included"
+      ],
+      "itinerary": [
+        {
+          "stage": "Day 1 — Haridwar → Barkot",
+          "detail": "Drive to Barkot via Mussoorie, check-in, rest."
+        },
+        {
+          "stage": "Day 2–3 — Yamunotri Darshan",
+          "detail": "Drive to Janki Chatti, trek to Yamunotri, Surya Kund dip, darshan, return."
+        },
+        {
+          "stage": "Day 4–5 — Gangotri Darshan",
+          "detail": "Drive to Gangotri, temple darshan, Ganga Aarti, Bhairon Ghati visit."
+        },
+        {
+          "stage": "Day 6 — Return to Haridwar",
+          "detail": "Drive back via Uttarkashi, Rishikesh, departure."
+        }
+      ]
+    }
+  ],
+  "included": [
+    "AC vehicle transportation throughout",
+    "Hotel & dharamshala accommodation",
+    "Daily breakfast & dinner",
+    "Experienced local guides",
+    "All temple entry permits",
+    "First aid & medical support",
+    "24/7 trip coordinator support",
+    "All toll & parking charges"
+  ],
+  "notIncluded": [
+    "Airfare / train tickets to Haridwar",
+    "Lunch (available locally)",
+    "Personal expenses & tips",
+    "Pony / palki / doli charges",
+    "Travel insurance (recommended)",
+    "Any items of personal nature",
+    "Camera / video fees at temples",
+    "Anything not mentioned above"
+  ],
+  "page": {
+    "meta": {
+      "title": "Char Dham Yatra Packages",
+      "description": "Complete Char Dham yatra packages — Kedarnath, Badrinath, Gangotri & Yamunotri. Guided tours from Haridwar/Rishikesh with hotels, transport, permits and meals included."
+    },
+    "hero": {
+      "image": "/images/char-dham/hero.jpg",
+      "imageAlt": "Char Dham Yatra",
+      "eyebrow": "Sacred Pilgrimage Packages",
+      "title": "Char Dham Yatra Packages",
+      "subtitle": "Complete your sacred journey to all four divine dhams — Kedarnath, Badrinath, Gangotri & Yamunotri — with India's most trusted pilgrimage partner."
+    },
+    "infoBand": [
+      {
+        "icon": "Calendar",
+        "label": "Season: May – November"
+      },
+      {
+        "icon": "MapPin",
+        "label": "Starting Point: Haridwar / Rishikesh"
+      },
+      {
+        "icon": "Users",
+        "label": "Group & Private Tours Available"
+      },
+      {
+        "icon": "Clock",
+        "label": "24/7 Support During Yatra"
+      }
+    ],
+    "packagesSection": {
+      "eyebrow": "Choose Your Package",
+      "heading": "Our Char Dham Packages",
+      "body": "Every package is carefully crafted for a safe, comfortable, and spiritually enriching yatra. All prices are per person on twin sharing basis."
+    },
+    "inclusions": {
+      "eyebrow": "Package Details",
+      "heading": "What’s Included",
+      "includedHeading": "Included",
+      "notIncludedHeading": "Not Included"
+    },
+    "cta": {
+      "eyebrow": "Ready to Begin?",
+      "heading": "Book Your Char Dham Yatra Today",
+      "body": "Our pilgrimage experts are ready to help you plan the perfect yatra. Call us or send a WhatsApp message for a free consultation and personalised itinerary.",
+      "whatsappText": "Hi TrippGuru, I'd like to enquire about Char Dham packages."
+    }
+  }
+}

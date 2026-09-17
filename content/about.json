@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "title": "About Us",
+    "description": "TrippGuru has guided over 10,000 pilgrims on sacred journeys since 2010. Based in Jodhpur, Rajasthan — licensed, insured, and devoted to safe pilgrimage travel."
+  },
+  "hero": {
+    "image": "/images/about/hero.jpg",
+    "imageAlt": "TrippGuru — Sacred Pilgrimage Experts",
+    "eyebrow": "Our Story",
+    "title": "About TrippGuru",
+    "subtitle": "India's most trusted pilgrimage travel partner — guiding devotees on sacred journeys with safety, comfort, and devotion since 2010."
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "10,000+",
+      "label": "Happy Pilgrims"
+    },
+    {
+      "icon": "Award",
+      "value": "15+",
+      "label": "Years of Experience"
+    },
+    {
+      "icon": "MapPin",
+      "value": "50+",
+      "label": "Pilgrimage Destinations"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Average Rating"
+    }
+  ],
+  "story": {
+    "eyebrow": "Who We Are",
+    "headingLineOne": "Born from Devotion,",
+    "headingLineTwo": "Built on Trust",
+    "paraOne": "TrippGuru was founded in 2010 by a group of devoted pilgrims who believed that every devotee deserves a safe, comfortable, and spiritually enriching yatra — regardless of age or physical ability.",
+    "paraTwo": "Based in Jodhpur, Rajasthan, we have grown from a small local operator to one of India’s most trusted names in pilgrimage tourism. Over 10,000 pilgrims have completed their sacred journeys with us — from the snow-clad peaks of Kedarnath to the ghats of Varanasi.",
+    "paraThreeBefore": "We are also proud to be associated with ",
+    "paraThreeAfter": ", our sister firm, together offering a comprehensive range of spiritual and leisure travel experiences across India.",
+    "image": "/images/about/team.jpg",
+    "imageAlt": "TrippGuru team",
+    "badgeValue": "15+",
+    "badgeLabel": "Years of Service",
+    "assurances": [
+      "Fully licensed & insured pilgrimage operator",
+      "Experienced guides with deep spiritual knowledge",
+      "Partnerships with top hotels & dharamshalas",
+      "Dedicated support team available 7 days a week"
+    ]
+  },
+  "values": {
+    "eyebrow": "What Drives Us",
+    "heading": "Our Core Values",
+    "items": [
+      {
+        "icon": "Heart",
+        "title": "Devotion First",
+        "body": "Every journey we plan is rooted in genuine devotion. We treat each yatra as a sacred responsibility, not just a tour."
+      },
+      {
+        "icon": "Shield",
+        "title": "Safety & Care",
+        "body": "From vetted vehicles to experienced guides and 24/7 support, your safety is our highest priority throughout the journey."
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Honest Service",
+        "body": "Transparent pricing, no hidden charges, and honest advice. We believe in building trust through every interaction."
+      },
+      {
+        "icon": "Clock",
+        "title": "Reliability",
+        "body": "Timely departures, confirmed bookings, and meticulous planning — so you never have to worry about logistics."
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "The People Behind TrippGuru",
+    "heading": "Meet Our Team",
+    "members": [
+      {
+        "name": "Rajesh Sharma",
+        "role": "Founder & Managing Director",
+        "bio": "A devoted pilgrim himself, Rajesh founded TrippGuru with a mission to make sacred journeys accessible, safe, and spiritually fulfilling for every devotee."
+      },
+      {
+        "name": "Priya Agarwal",
+        "role": "Head of Operations",
+        "bio": "With over 10 years in pilgrimage tourism, Priya ensures every itinerary is flawlessly executed — from permits to accommodation."
+      },
+      {
+        "name": "Suresh Gupta",
+        "role": "Senior Pilgrimage Guide",
+        "bio": "A Kedarnath and Char Dham specialist with deep knowledge of Himalayan routes, rituals, and the spiritual significance of each shrine."
+      }
+    ]
+  },
+  "office": {
+    "eyebrow": "Find Us",
+    "heading": "Our Office",
+    "addressLabel": "Office Address",
+    "phoneLabel": "Phone",
+    "whatsappPrefix": "WhatsApp: ",
+    "emailLabel": "Email & WhatsApp",
+    "sisterLabel": "Sister Firm"
+  },
+  "ctaCard": {
+    "eyebrow": "Start Your Journey",
+    "heading": "Plan Your Yatra With Us",
+    "body": "Whether you’re planning your first pilgrimage or your tenth, our team is here to make it safe, comfortable, and deeply meaningful.",
+    "whatsappLabel": "WhatsApp Us",
+    "callPrefix": "Call ",
+    "enquiryLabel": "Send an Enquiry",
+    "enquiryHref": "/contact"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Char Dham",
+      "href": "/char-dham"
+    },
+    {
+      "label": "Helicopter",
+      "href": "/helicopter"
+    },
+    {
+      "label": "Temple Packages",
+      "href": "/packages"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "trekking": {
+    "label": "Trekking",
+    "href": "/trekking"
+  },
+  "bookNow": {
+    "label": "Book Now",
+    "href": "/contact"
+  }
+}

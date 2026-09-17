@@ -1,0 +1,78 @@
+{
+  "blurb": "India’s trusted pilgrimage travel partner — guiding devotees on sacred journeys with safety, comfort, and devotion since 2010.",
+  "quote": "The journey of a thousand miles begins with a single step of faith.",
+  "columns": [
+    {
+      "heading": "Our Packages",
+      "links": [
+        {
+          "label": "Char Dham Yatra",
+          "href": "/char-dham"
+        },
+        {
+          "label": "Helicopter Packages",
+          "href": "/helicopter"
+        },
+        {
+          "label": "All Temple Packages",
+          "href": "/packages"
+        },
+        {
+          "label": "Kedarnath Packages",
+          "href": "/packages"
+        },
+        {
+          "label": "Badrinath Packages",
+          "href": "/packages"
+        },
+        {
+          "label": "Varanasi Packages",
+          "href": "/packages"
+        }
+      ]
+    },
+    {
+      "heading": "Quick Links",
+      "links": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        },
+        {
+          "label": "Blog & Travel Tips",
+          "href": "/#blog"
+        },
+        {
+          "label": "Booking Inquiry",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "contactHeading": "Get In Touch",
+  "whatsappLabel": "WhatsApp Us",
+  "legal": {
+    "rightsText": "All rights reserved.",
+    "sisterPrefix": "Sister Firm:",
+    "privacy": {
+      "label": "Privacy Policy",
+      "href": "/#privacy"
+    },
+    "terms": {
+      "label": "Terms & Conditions",
+      "href": "/#terms"
+    }
+  },
+  "floating": {
+    "instagramTooltip": "Instagram",
+    "whatsappTooltip": "Chat on WhatsApp"
+  }
+}

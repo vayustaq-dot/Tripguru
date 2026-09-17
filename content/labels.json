@@ -1,0 +1,91 @@
+{
+  "packageCard": {
+    "priceLabel": "Starting from",
+    "perPerson": "per person",
+    "itineraryLabel": "View Day-wise Itinerary",
+    "whatsappLabel": "Enquire on WhatsApp",
+    "callLabel": "Call Us",
+    "enquiryTemplate": "Hi TrippGuru, I'm interested in the {title} package. Please share details."
+  },
+  "heliCard": {
+    "priceLabel": "Starting from",
+    "highlightsHeading": "Package Highlights",
+    "scheduleHeading": "Schedule / Itinerary",
+    "ratedLabel": "Highly Rated",
+    "whatsappLabel": "WhatsApp",
+    "bookLabel": "Book Now",
+    "bookHref": "/contact",
+    "enquiryTemplate": "Hi TrippGuru, I'm interested in the {title}. Please share details."
+  },
+  "destinationCard": {
+    "whatsappLabel": "WhatsApp",
+    "quoteLabel": "Get Quote",
+    "quoteHref": "/contact",
+    "enquiryTemplate": "Hi TrippGuru, I'm interested in a pilgrimage package to {name}, {state}. Please share details.",
+    "countSuffixOne": "destination",
+    "countSuffixMany": "destinations"
+  },
+  "trekCard": {
+    "perPerson": "per person",
+    "whatsappLabel": "WhatsApp",
+    "bookLabel": "Book Now",
+    "bookHref": "/contact",
+    "foundSuffixOne": "trek found",
+    "foundSuffixMany": "treks found",
+    "difficultyLabel": "Difficulty",
+    "regionLabel": "Region",
+    "allLabel": "All",
+    "enquiryTemplate": "Hi TrippGuru, I'm interested in the {title}. Please share details and upcoming batch dates."
+  },
+  "homeForm": {
+    "namePlaceholder": "Your Name",
+    "phonePlaceholder": "Phone Number",
+    "packagePlaceholder": "Select Package Interest",
+    "messagePlaceholder": "Any specific requirements or questions?",
+    "submitLabel": "Send Enquiry",
+    "sendingLabel": "Sending…",
+    "sentLabel": "Enquiry Received",
+    "thanksMessage": "Thank you — our team will reach out within 24 hours.",
+    "packageOptions": [
+      "Char Dham Yatra",
+      "Helicopter Packages",
+      "Kedarnath Package",
+      "Badrinath Package",
+      "Varanasi / Kashi",
+      "Other Temple Package"
+    ]
+  },
+  "contactForm": {
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Your full name",
+    "phoneLabel": "Phone / WhatsApp",
+    "phonePlaceholder": "+91 XXXXX XXXXX",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "your@email.com",
+    "packageLabel": "Package of Interest",
+    "packagePlaceholder": "Select a package",
+    "pilgrimsLabel": "Number of Pilgrims",
+    "pilgrimsPlaceholder": "e.g. 4",
+    "dateLabel": "Preferred Travel Date",
+    "messageLabel": "Message / Special Requirements",
+    "messagePlaceholder": "Tell us about your requirements, any special needs, or questions...",
+    "submitLabel": "Send Inquiry",
+    "sendingLabel": "Sending…",
+    "sentLabel": "Inquiry Sent",
+    "thanksMessage": "Thank you — we’ll respond within 2 hours.",
+    "packageOptions": [
+      "Char Dham Yatra",
+      "Char Dham Premium",
+      "Char Dham by Helicopter",
+      "Kedarnath Yatra",
+      "Badrinath Yatra",
+      "Gangotri & Yamunotri",
+      "Kedarnath Helicopter",
+      "Varanasi Pilgrimage",
+      "Tirupati Darshan",
+      "Shirdi Sai Baba",
+      "Custom Package",
+      "Other"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Contact & Booking Inquiry",
+    "description": "Get in touch with TrippGuru to plan your pilgrimage. Call, WhatsApp us, or send a booking inquiry — we respond within 2 hours, 7 days a week."
+  },
+  "hero": {
+    "eyebrow": "We’re Here to Help",
+    "title": "Contact & Booking Inquiry",
+    "body": "Ready to begin your sacred journey? Reach out to us — we respond within 2 hours and are available 7 days a week."
+  },
+  "bar": {
+    "callPrefix": "Call: ",
+    "whatsappPrefix": "WhatsApp: "
+  },
+  "form": {
+    "eyebrow": "Booking Inquiry",
+    "heading": "Send Us a Message"
+  },
+  "details": {
+    "eyebrow": "Contact Details",
+    "heading": "Reach Us Directly",
+    "cards": [
+      {
+        "kind": "phone",
+        "icon": "Phone",
+        "kicker": "Call Us",
+        "note": "Available 7 days, 8 AM – 8 PM"
+      },
+      {
+        "kind": "whatsapp",
+        "icon": "MessageCircle",
+        "kicker": "WhatsApp",
+        "note": "Quick replies, share itinerary PDFs"
+      },
+      {
+        "kind": "email",
+        "icon": "Mail",
+        "kicker": "Email",
+        "note": "We reply within 4 hours"
+      }
+    ],
+    "addressKicker": "Office Address",
+    "hoursKicker": "Office Hours",
+    "hoursPrimary": "Mon – Sat: 9 AM – 7 PM",
+    "hoursSecondary": "Sunday: 10 AM – 4 PM",
+    "whatsappCtaLabel": "Chat on WhatsApp Now",
+    "whatsappPrefill": "Hi TrippGuru, I'd like to enquire about a pilgrimage package."
+  }
+}

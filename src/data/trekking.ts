@@ -1,0 +1,566 @@
+export type TrekStat = { label: string; value: string };
+export type TrekSeason = { label: string; classes: string };
+
+export type Trek = {
+  badge: string;
+  title: string;
+  region: string;
+  price: string;
+  stats: TrekStat[];
+  difficulty: string;
+  difficultyClasses: string;
+  seasons: TrekSeason[];
+  blurb: string;
+  highlights: string[];
+};
+
+export type Grade = {
+  label: string;
+  badgeClasses: string;
+  borderClass: string;
+  description: string;
+  examples: string;
+};
+
+export const treks: Trek[] = [
+  {
+    "badge": "Most Popular",
+    "title": "Kedarkantha Trek",
+    "region": "Uttarakhand",
+    "price": "₹8,499",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "6 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "12,500 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–20"
+      }
+    ],
+    "difficulty": "Easy-Moderate",
+    "difficultyClasses": "bg-lime-100 text-lime-700 border-lime-200",
+    "seasons": [
+      {
+        "classes": "bg-blue-50 text-blue-600",
+        "label": "Winter"
+      },
+      {
+        "classes": "bg-pink-50 text-pink-600",
+        "label": "Spring"
+      }
+    ],
+    "blurb": "One of the finest winter treks in India — a perfect blend of snow, forests, and panoramic Himalayan views from the summit.",
+    "highlights": [
+      "Summit views of 13 Himalayan peaks",
+      "Dense pine & oak forests",
+      "Snow-covered trails in winter",
+      "Camping under the stars"
+    ]
+  },
+  {
+    "badge": "UNESCO Heritage",
+    "title": "Valley of Flowers Trek",
+    "region": "Uttarakhand",
+    "price": "₹9,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "6 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "14,100 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–20"
+      }
+    ],
+    "difficulty": "Easy-Moderate",
+    "difficultyClasses": "bg-lime-100 text-lime-700 border-lime-200",
+    "seasons": [
+      {
+        "classes": "bg-teal-50 text-teal-600",
+        "label": "Monsoon"
+      },
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      }
+    ],
+    "blurb": "A UNESCO World Heritage Site bursting with hundreds of wildflower species — a surreal monsoon trek through a floral paradise.",
+    "highlights": [
+      "UNESCO World Heritage Site",
+      "500+ species of wildflowers",
+      "Hemkund Sahib Gurudwara",
+      "Pristine alpine meadows"
+    ]
+  },
+  {
+    "badge": "",
+    "title": "Hampta Pass Trek",
+    "region": "Himachal Pradesh",
+    "price": "₹10,499",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "5 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "14,100 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–20"
+      }
+    ],
+    "difficulty": "Moderate",
+    "difficultyClasses": "bg-yellow-100 text-yellow-700 border-yellow-200",
+    "seasons": [
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      },
+      {
+        "classes": "bg-teal-50 text-teal-600",
+        "label": "Monsoon"
+      }
+    ],
+    "blurb": "A dramatic crossover from the lush green Kullu Valley to the stark, barren landscapes of Spiti — one of India's most scenic passes.",
+    "highlights": [
+      "Dramatic landscape crossover",
+      "Chandratal Lake visit",
+      "Lush Kullu to barren Spiti",
+      "River crossings & glaciers"
+    ]
+  },
+  {
+    "badge": "Mysterious",
+    "title": "Roopkund Trek",
+    "region": "Uttarakhand",
+    "price": "₹13,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "8 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "15,750 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–16"
+      }
+    ],
+    "difficulty": "Moderate-Difficult",
+    "difficultyClasses": "bg-orange-100 text-orange-700 border-orange-200",
+    "seasons": [
+      {
+        "classes": "bg-pink-50 text-pink-600",
+        "label": "Spring"
+      },
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      }
+    ],
+    "blurb": "Trek to the mysterious glacial lake at 15,750 ft — famous for its ancient skeletal remains and breathtaking Himalayan panoramas.",
+    "highlights": [
+      "Mysterious skeleton lake",
+      "Ali & Bedni Bugyal meadows",
+      "Trishul & Nanda Ghunti views",
+      "High-altitude camping"
+    ]
+  },
+  {
+    "badge": "",
+    "title": "Har Ki Dun Trek",
+    "region": "Uttarakhand",
+    "price": "₹9,499",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "7 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "11,675 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–20"
+      }
+    ],
+    "difficulty": "Easy-Moderate",
+    "difficultyClasses": "bg-lime-100 text-lime-700 border-lime-200",
+    "seasons": [
+      {
+        "classes": "bg-pink-50 text-pink-600",
+        "label": "Spring"
+      },
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      }
+    ],
+    "blurb": "The \"Valley of Gods\" — a cradle-shaped hanging valley with ancient villages, rich wildlife, and stunning Himalayan vistas.",
+    "highlights": [
+      "Valley of Gods",
+      "Ancient Har Ki Dun village",
+      "Swargarohini peak views",
+      "Rich flora & fauna"
+    ]
+  },
+  {
+    "badge": "Bucket List",
+    "title": "Kashmir Great Lakes Trek",
+    "region": "Kashmir",
+    "price": "₹14,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "7 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "13,750 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–16"
+      }
+    ],
+    "difficulty": "Moderate",
+    "difficultyClasses": "bg-yellow-100 text-yellow-700 border-yellow-200",
+    "seasons": [
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      }
+    ],
+    "blurb": "A circuit of seven stunning alpine lakes set against snow-capped peaks — widely regarded as one of the most beautiful treks in India.",
+    "highlights": [
+      "7 pristine alpine lakes",
+      "Vishansar, Krishansar & Gangabal",
+      "Lush meadows & glaciers",
+      "Sonamarg base"
+    ]
+  },
+  {
+    "badge": "Extreme Winter",
+    "title": "Chadar Trek — Frozen River",
+    "region": "Ladakh",
+    "price": "₹18,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "9 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "11,123 ft"
+      },
+      {
+        "label": "Group",
+        "value": "6–14"
+      }
+    ],
+    "difficulty": "Difficult",
+    "difficultyClasses": "bg-red-100 text-red-700 border-red-200",
+    "seasons": [
+      {
+        "classes": "bg-blue-50 text-blue-600",
+        "label": "Winter"
+      }
+    ],
+    "blurb": "Walk on the frozen Zanskar River in the heart of Ladakhi winter — one of the most extreme and unforgettable treks on the planet.",
+    "highlights": [
+      "Walk on the frozen Zanskar River",
+      "Temperatures down to -30°C",
+      "Dramatic ice formations",
+      "Unique Ladakhi culture"
+    ]
+  },
+  {
+    "badge": "",
+    "title": "Goechala Trek",
+    "region": "Sikkim",
+    "price": "₹16,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "11 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "15,100 ft"
+      },
+      {
+        "label": "Group",
+        "value": "6–14"
+      }
+    ],
+    "difficulty": "Difficult",
+    "difficultyClasses": "bg-red-100 text-red-700 border-red-200",
+    "seasons": [
+      {
+        "classes": "bg-pink-50 text-pink-600",
+        "label": "Spring"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      }
+    ],
+    "blurb": "Trek to the base of Kangchenjunga — the world's third-highest peak — through Sikkim's pristine rhododendron forests and glacial lakes.",
+    "highlights": [
+      "Closest view of Kangchenjunga",
+      "Rhododendron forests",
+      "Samiti & Zemathang lakes",
+      "Remote Sikkim wilderness"
+    ]
+  },
+  {
+    "badge": "",
+    "title": "Rupin Pass Trek",
+    "region": "Uttarakhand",
+    "price": "₹11,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "7 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "15,250 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–16"
+      }
+    ],
+    "difficulty": "Moderate-Difficult",
+    "difficultyClasses": "bg-orange-100 text-orange-700 border-orange-200",
+    "seasons": [
+      {
+        "classes": "bg-pink-50 text-pink-600",
+        "label": "Spring"
+      },
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      }
+    ],
+    "blurb": "A spectacular crossover trek featuring a dramatic waterfall, hanging villages, and a high-altitude pass connecting Kinnaur to Uttarakhand.",
+    "highlights": [
+      "Hanging village of Rupin",
+      "Dramatic waterfall crossing",
+      "Snow bridges & glaciers",
+      "Kinnaur to Uttarakhand crossover"
+    ]
+  },
+  {
+    "badge": "Ultimate Trek",
+    "title": "Everest Base Camp Trek",
+    "region": "Nepal",
+    "price": "₹49,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "13 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "18,192 ft"
+      },
+      {
+        "label": "Group",
+        "value": "6–12"
+      }
+    ],
+    "difficulty": "Difficult",
+    "difficultyClasses": "bg-red-100 text-red-700 border-red-200",
+    "seasons": [
+      {
+        "classes": "bg-pink-50 text-pink-600",
+        "label": "Spring"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      }
+    ],
+    "blurb": "The ultimate trekking pilgrimage — walk to the base of Mount Everest through the legendary Khumbu Valley and Sherpa heartland.",
+    "highlights": [
+      "Base of the world's highest peak",
+      "Kala Patthar sunrise views",
+      "Sherpa culture & monasteries",
+      "Namche Bazaar acclimatization"
+    ]
+  },
+  {
+    "badge": "Best for Beginners",
+    "title": "Dayara Bugyal Trek",
+    "region": "Uttarakhand",
+    "price": "₹7,499",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "5 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "12,000 ft"
+      },
+      {
+        "label": "Group",
+        "value": "8–20"
+      }
+    ],
+    "difficulty": "Easy",
+    "difficultyClasses": "bg-green-100 text-green-700 border-green-200",
+    "seasons": [
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      },
+      {
+        "classes": "bg-blue-50 text-blue-600",
+        "label": "Winter"
+      }
+    ],
+    "blurb": "One of the finest high-altitude meadows in India — a gentle, beginner-friendly trek with sweeping views of Bandarpunch and Srikanth peaks.",
+    "highlights": [
+      "Vast alpine meadows",
+      "Panoramic Himalayan views",
+      "Perfect beginner trek",
+      "Snow play in winter"
+    ]
+  },
+  {
+    "badge": "",
+    "title": "Markha Valley Trek",
+    "region": "Ladakh",
+    "price": "₹15,999",
+    "stats": [
+      {
+        "label": "Duration",
+        "value": "8 Days"
+      },
+      {
+        "label": "Max Alt.",
+        "value": "17,060 ft"
+      },
+      {
+        "label": "Group",
+        "value": "6–14"
+      }
+    ],
+    "difficulty": "Moderate",
+    "difficultyClasses": "bg-yellow-100 text-yellow-700 border-yellow-200",
+    "seasons": [
+      {
+        "classes": "bg-sky-50 text-sky-600",
+        "label": "Summer"
+      },
+      {
+        "classes": "bg-amber-50 text-amber-600",
+        "label": "Autumn"
+      }
+    ],
+    "blurb": "A classic Ladakh trek through remote villages, ancient gompas, and high-altitude passes with stunning views of Kang Yatse.",
+    "highlights": [
+      "Ancient Tibetan monasteries",
+      "Kang Yatse peak views",
+      "Remote Ladakhi villages",
+      "Kongmaru La pass crossing"
+    ]
+  }
+];
+
+export const grades: Grade[] = [
+  {
+    "borderClass": "border-green-400",
+    "badgeClasses": "bg-green-100 text-green-700",
+    "label": "Easy",
+    "description": "Suitable for first-timers. Short daily walks (4–8 km), moderate altitude gain. No prior trekking experience needed.",
+    "examples": "Dayara Bugyal, Nag Tibba"
+  },
+  {
+    "borderClass": "border-lime-400",
+    "badgeClasses": "bg-lime-100 text-lime-700",
+    "label": "Easy-Moderate",
+    "description": "Moderate daily walks (8–12 km), some steep sections. Basic fitness required. Ideal for occasional trekkers.",
+    "examples": "Kedarkantha, Valley of Flowers, Har Ki Dun"
+  },
+  {
+    "borderClass": "border-yellow-400",
+    "badgeClasses": "bg-yellow-100 text-yellow-700",
+    "label": "Moderate",
+    "description": "Longer days (10–14 km), significant altitude gain. Regular exercise recommended. Some prior trekking helps.",
+    "examples": "Hampta Pass, Kashmir Great Lakes"
+  },
+  {
+    "borderClass": "border-orange-400",
+    "badgeClasses": "bg-orange-100 text-orange-700",
+    "label": "Moderate-Difficult",
+    "description": "Challenging terrain, high altitude (14,000–16,000 ft), long days. Prior trekking experience essential.",
+    "examples": "Roopkund, Rupin Pass"
+  },
+  {
+    "borderClass": "border-red-400",
+    "badgeClasses": "bg-red-100 text-red-700",
+    "label": "Difficult",
+    "description": "Very high altitude (16,000+ ft), technical sections, extreme weather possible. Multiple prior treks required.",
+    "examples": "Chadar Trek, Goechala, EBC"
+  },
+  {
+    "borderClass": "border-purple-400",
+    "badgeClasses": "bg-purple-100 text-purple-700",
+    "label": "Challenging",
+    "description": "Peak expeditions and extreme routes. Mountaineering skills, high fitness, and extensive experience mandatory.",
+    "examples": "Stok Kangri, Kang Yatse"
+  }
+];
+
+export const trekStats = [
+  {
+    "value": "12+",
+    "label": "Curated Treks"
+  },
+  {
+    "value": "6",
+    "label": "Himalayan Regions"
+  },
+  {
+    "value": "5,000+",
+    "label": "Happy Trekkers"
+  },
+  {
+    "value": "15+",
+    "label": "Years Experience"
+  }
+];

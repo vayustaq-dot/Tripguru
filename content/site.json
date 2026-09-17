@@ -1,0 +1,18 @@
+{
+  "name": "TrippGuru",
+  "domain": "trippguru.com",
+  "tagline": "Your Sacred Journey Begins Here",
+  "description": "India's trusted pilgrimage travel partner. Book Char Dham yatra, helicopter packages, and all temple tours from Jodhpur. Safe, comfortable, spiritually enriching journeys.",
+  "phone": "+91 89855 20000",
+  "phoneHref": "tel:+918985520000",
+  "whatsapp": "+91 94135 56713",
+  "whatsappHref": "https://wa.me/919413556713",
+  "email": "info@trippguru.com",
+  "instagram": "https://www.instagram.com/trippguru",
+  "sisterFirm": {
+    "name": "Bhagwati Holidays",
+    "href": "https://www.bhagwati-holidays.com"
+  },
+  "address": "101, AKS Heights, 9th–10th C Road,\nSardarpura, Jodhpur, Rajasthan",
+  "logo": "/images/logo.png"
+}

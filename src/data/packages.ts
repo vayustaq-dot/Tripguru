@@ -1,0 +1,312 @@
+export type Destination = { name: string; blurb: string };
+
+export type StateGroup = {
+  state: string;
+  tone: "primary" | "accent" | "secondary";
+  destinations: Destination[];
+};
+
+export const stateGroups: StateGroup[] = [
+  {
+    "state": "Uttar Pradesh",
+    "tone": "primary",
+    "destinations": [
+      {
+        "name": "Varanasi",
+        "blurb": "World's oldest living city — Kashi Vishwanath, Ganga Aarti & sacred ghats."
+      },
+      {
+        "name": "Mathura",
+        "blurb": "Birthplace of Lord Krishna — Krishna Janmabhoomi, Dwarkadhish Temple."
+      },
+      {
+        "name": "Vrindavan",
+        "blurb": "Land of Krishna's divine childhood — Banke Bihari, Prem Mandir, Govardhan."
+      }
+    ]
+  },
+  {
+    "state": "Bihar",
+    "tone": "accent",
+    "destinations": [
+      {
+        "name": "Bodhgaya",
+        "blurb": "Where the Buddha attained enlightenment — Mahabodhi Temple, Bodhi Tree."
+      }
+    ]
+  },
+  {
+    "state": "Uttarakhand",
+    "tone": "secondary",
+    "destinations": [
+      {
+        "name": "Char Dham",
+        "blurb": "Kedarnath, Badrinath, Gangotri & Yamunotri — the holiest circuit in the Himalayas."
+      },
+      {
+        "name": "Haridwar",
+        "blurb": "Gateway to the gods — Har Ki Pauri, Ganga Aarti, Chandi Devi & Mansa Devi."
+      },
+      {
+        "name": "Rishikesh",
+        "blurb": "Yoga capital of the world — Triveni Ghat, Neelkanth Mahadev, Ram Jhula."
+      }
+    ]
+  },
+  {
+    "state": "Maharashtra",
+    "tone": "primary",
+    "destinations": [
+      {
+        "name": "Nasik",
+        "blurb": "Trimbakeshwar Jyotirlinga, Panchavati & Kumbh Mela city on the Godavari."
+      },
+      {
+        "name": "Shirdi",
+        "blurb": "Sai Baba's sacred abode — Samadhi Mandir, Dwarkamai, Chavadi & Shani Shingnapur."
+      },
+      {
+        "name": "Mahabaleshwar",
+        "blurb": "Mahabaleshwar temple, Pratapgad fort & scenic hill station pilgrimage."
+      },
+      {
+        "name": "Nanded",
+        "blurb": "Hazur Sahib Gurudwara — one of the five Takhts of Sikhism, on the Godavari."
+      }
+    ]
+  },
+  {
+    "state": "Gujarat",
+    "tone": "accent",
+    "destinations": [
+      {
+        "name": "Palitana",
+        "blurb": "Shatrunjaya Hill — 900+ Jain temples, the holiest pilgrimage site in Jainism."
+      },
+      {
+        "name": "Dwarka",
+        "blurb": "Dwarkadhish Temple — one of the Char Dhams and the legendary city of Lord Krishna."
+      }
+    ]
+  },
+  {
+    "state": "Rajasthan",
+    "tone": "secondary",
+    "destinations": [
+      {
+        "name": "Pushkar",
+        "blurb": "World's only Brahma Temple — sacred Pushkar Lake, Savitri Temple & Camel Fair."
+      }
+    ]
+  },
+  {
+    "state": "Kerala",
+    "tone": "primary",
+    "destinations": [
+      {
+        "name": "Guruvayur",
+        "blurb": "Guruvayur Sri Krishna Temple — Kerala's most important Vaishnavite shrine."
+      }
+    ]
+  },
+  {
+    "state": "Karnataka",
+    "tone": "accent",
+    "destinations": [
+      {
+        "name": "Hampi",
+        "blurb": "Virupaksha Temple & the ruins of the Vijayanagara Empire — a UNESCO World Heritage Site."
+      },
+      {
+        "name": "Gokarna",
+        "blurb": "Mahabaleshwar temple on the Arabian Sea coast — a serene alternative to Goa."
+      }
+    ]
+  },
+  {
+    "state": "Madhya Pradesh",
+    "tone": "secondary",
+    "destinations": [
+      {
+        "name": "Omkareshwar",
+        "blurb": "Island Jyotirlinga on the Narmada — Omkareshwar & Mamleshwar temples."
+      },
+      {
+        "name": "Ujjain",
+        "blurb": "Mahakaleshwar Jyotirlinga — one of the seven Moksha-giving cities & Kumbh Mela site."
+      },
+      {
+        "name": "Mahakaleshwar",
+        "blurb": "The only south-facing Jyotirlinga — Bhasma Aarti at dawn is a once-in-a-lifetime experience."
+      },
+      {
+        "name": "Maheshwar",
+        "blurb": "Ancient temple town on the Narmada — Ahilya Bai Holkar fort & ghats."
+      }
+    ]
+  },
+  {
+    "state": "Tamil Nadu",
+    "tone": "primary",
+    "destinations": [
+      {
+        "name": "Chidambaram",
+        "blurb": "Nataraja temple — Lord Shiva as the cosmic dancer, one of the Pancha Bhuta Stalas."
+      },
+      {
+        "name": "Madurai",
+        "blurb": "Meenakshi Amman Temple — a Dravidian architectural marvel and living pilgrimage centre."
+      },
+      {
+        "name": "Kanyakumari",
+        "blurb": "Southernmost tip of India — Kumari Amman Temple, Vivekananda Rock Memorial."
+      },
+      {
+        "name": "Kanchipuram",
+        "blurb": "City of 1000 temples — Ekambareswarar, Kamakshi Amman & Varadharaja Perumal."
+      },
+      {
+        "name": "Rameshwaram",
+        "blurb": "Ramanathaswamy Temple — one of the Char Dhams, Agni Theertham on the sea."
+      },
+      {
+        "name": "Tanjore",
+        "blurb": "Brihadeeswarar Temple — a UNESCO World Heritage Site and Chola architectural wonder."
+      },
+      {
+        "name": "Trichy",
+        "blurb": "Sri Ranganathaswamy Temple at Srirangam — the largest functioning Hindu temple in the world."
+      }
+    ]
+  },
+  {
+    "state": "Andhra Pradesh",
+    "tone": "accent",
+    "destinations": [
+      {
+        "name": "Tirupati",
+        "blurb": "Tirumala Venkateswara — the most visited and richest temple in the world."
+      },
+      {
+        "name": "Puttaparthi",
+        "blurb": "Prasanthi Nilayam — Sathya Sai Baba's ashram, a centre of peace and devotion."
+      }
+    ]
+  },
+  {
+    "state": "Odisha",
+    "tone": "secondary",
+    "destinations": [
+      {
+        "name": "Bhubaneswar",
+        "blurb": "Temple city of India — Lingaraj Temple, Mukteshwar & hundreds of ancient shrines."
+      },
+      {
+        "name": "Puri",
+        "blurb": "Jagannath Temple — one of the Char Dhams, home of the famous Rath Yatra festival."
+      },
+      {
+        "name": "Konark",
+        "blurb": "Sun Temple — a UNESCO World Heritage Site, the magnificent chariot of the Sun God."
+      }
+    ]
+  },
+  {
+    "state": "Jharkhand",
+    "tone": "primary",
+    "destinations": [
+      {
+        "name": "Deoghar",
+        "blurb": "Baidyanath Jyotirlinga — one of the twelve Jyotirlingas, major Shravani Mela site."
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "tone": "accent",
+    "destinations": [
+      {
+        "name": "Kolkata",
+        "blurb": "Dakshineswar Kali Temple, Belur Math & Kalighat — spiritual heart of Bengal."
+      }
+    ]
+  },
+  {
+    "state": "Himachal Pradesh",
+    "tone": "secondary",
+    "destinations": [
+      {
+        "name": "Kangra",
+        "blurb": "Bajreshwari Mata Temple — ancient Shakti Peeth in the Kangra valley."
+      },
+      {
+        "name": "Dharamshala / Mecleodganj",
+        "blurb": "Dalai Lama's residence — Namgyal Monastery & Tibetan Buddhist pilgrimage."
+      },
+      {
+        "name": "Manikaran",
+        "blurb": "Hot springs & Gurudwara Manikaran Sahib — sacred to both Sikhs and Hindus."
+      },
+      {
+        "name": "Chamunda Devi",
+        "blurb": "Chamunda Devi Temple near Dharamshala — powerful Shakti Peeth on the Baner River."
+      },
+      {
+        "name": "Renukaji",
+        "blurb": "Renuka Lake & Parashurama temple — serene pilgrimage in the Sirmaur hills."
+      },
+      {
+        "name": "Chintpurni",
+        "blurb": "Chintpurni Mata — one of the 51 Shakti Peethas, in Una district."
+      },
+      {
+        "name": "Paonta Sahib",
+        "blurb": "Historic Gurudwara on the Yamuna — where Guru Gobind Singh composed scriptures."
+      }
+    ]
+  },
+  {
+    "state": "Jammu & Kashmir",
+    "tone": "primary",
+    "destinations": [
+      {
+        "name": "Katra / Vaishno Devi",
+        "blurb": "Vaishno Devi Shrine — one of the most visited pilgrimage sites in India, in the Trikuta Mountains."
+      },
+      {
+        "name": "Jammu",
+        "blurb": "Raghunath Temple, Ranbireshwar Temple & Peer Kho Cave — the city of temples."
+      }
+    ]
+  },
+  {
+    "state": "Punjab",
+    "tone": "accent",
+    "destinations": [
+      {
+        "name": "Amritsar",
+        "blurb": "Harmandir Sahib (Golden Temple) — the holiest shrine in Sikhism, a symbol of equality."
+      },
+      {
+        "name": "Anandpur Sahib",
+        "blurb": "Birthplace of the Khalsa — Takht Sri Kesgarh Sahib & Hola Mohalla festival."
+      },
+      {
+        "name": "Naina Devi",
+        "blurb": "Naina Devi Temple — a Shakti Peeth atop a hill in Bilaspur, Himachal border."
+      }
+    ]
+  },
+  {
+    "state": "Haryana",
+    "tone": "secondary",
+    "destinations": [
+      {
+        "name": "Panchkula (Mansa Devi)",
+        "blurb": "Mansa Devi Temple on Shivalik Hills — popular Shakti Peeth near Chandigarh."
+      }
+    ]
+  }
+];
+
+export const totalDestinations = stateGroups.reduce((n, s) => n + s.destinations.length, 0);
