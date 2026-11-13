@@ -18,7 +18,6 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: "TrippGuru",
-  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
